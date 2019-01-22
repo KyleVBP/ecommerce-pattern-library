@@ -1,0 +1,16 @@
+:root {
+  --color-primary: #1C2941;
+  --color-primary-light: #263B59;
+  --color-secondary: #53A1CC;
+  --color-secondary-dark: #3F668C;
+  --color-accent: #9CFFFE;
+  --color-neutral-light-grey: #e2e2e2;
+  --color-neutral-dark-grey: #404040;
+  --color-neutral-white: #fff;
+  --font-primary: "Sarabun", Arial, sans-serif;
+  --font-secondary: "Roboto Slab", Arial, sans-serif;
+}
+
+html {
+  font-family: var(--font-primary);
+}
