@@ -3,5 +3,6 @@ theme: jekyll_patternbot
 
 patternbot:
   title: MusicPoint;
-  description: A website with everything ranging from CDs, Vinyl, and Merchanise for current popular music artists.;
+  description: |
+    A website with everything ranging from CDs, Vinyl, and Merchanise for current popular music artists.;
   font_url: "https://fonts.googleapis.com/css?family=Roboto+Slab:300,400,700|Sarabun:300,400,600,700"
