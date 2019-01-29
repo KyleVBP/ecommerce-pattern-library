@@ -6,12 +6,19 @@ patternbot:
   description: |
     A website with everything ranging from CDs, Vinyl, and Merchanise for current popular music artists.
   font_url: "https://fonts.googleapis.com/css?family=Roboto+Slab:300,400,700|Sarabun:300,400,600,700"
+  colors:
+    background: "--color-primary-light"
+    accent: "--color-neutral-light-grey"
+    patterns:
+      brand.logos: "--color-primary"
   rationales:
     typefaces.primary: |
       Sarabun was selected because it is appealing as a sans-serif font while also being unique giving MusicPoint it's on identity.
     typefaces.secondary: |
       Roboto Slab was used for the logo type as well as certain headers to help contrast with Sarabun, based on what MusicPoint sells it makes more sense to contrast with a slab rather than a serif.
     colors.primary: |
-      The dark blue was chosen for header and footer as well as type and the logo.
+      The dark blue is used for header, footer, marked text, and the logo, the lighter verison is used as the backgroun for the bulk of the website.
     colors.secondary: |
-      This lighter blue was chosen so the bulk of the website would be easier to see.
+      The lighter blue is used for accenting, buttons, and borders.
+    colors.accent: |
+      The accent blue is used for certain hover states, and footer text.
