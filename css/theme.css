@@ -3,8 +3,10 @@
   --color-primary-light: #263B59;
   --color-secondary: #53A1CC;
   --color-secondary-dark: #3F668C;
+  --color-secondary-light: #a9d0e5;
   --color-accent: #9CFFFE;
-  --color-neutral-light-grey: #f2f2f2;
+  --color-neutral-light-grey: #e6e6e6;
+  --color-neutral-mid-grey: #3c3c3c;
   --color-neutral-dark-grey: #282828;
   --color-neutral-white: #fff;
   --font-primary: "Sarabun", Arial, sans-serif;
@@ -46,6 +48,10 @@ h5 {
 h6 {
   color: var(--color-secondary);
   font-weight: 400;
+}
+
+p {
+  color: var(--color-neutral-light-grey);
 }
 
 ul {
