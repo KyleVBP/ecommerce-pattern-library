@@ -14,3 +14,65 @@
 html {
   font-family: var(--font-primary);
 }
+
+h1 {
+  font-family: var(--font-secondary)
+  font-weight: 300;
+  color: var(--color-neutral-light-grey);
+}
+
+h2 {
+  color: var(--color-neutral-light-grey);
+  font-weight: 700;
+}
+
+h3 {
+  color: var(--color-neutral-light-grey);
+  font-weight: 400;
+}
+
+h4 {
+  color: var(--color-neutral-light-grey);
+  font-weight: 400;
+}
+
+h5 {
+  color: var(--color-neutral-dark-grey);
+  font-weight: 700;
+}
+
+h6 {
+  color: var(--color-secondary);
+}
+
+ul {
+  color: var(--color-neutral-light-grey);
+  list-style-type: square;
+}
+
+a {
+  text-decoration: none;
+  color: var(--color-neutral-light-grey);
+}
+
+a:hover {
+  text-decoration: underline;
+  color: var(--color-neutral-white);
+}
+
+em {
+  font-style: oblique;
+}
+
+strong {
+  font-weight: 600;
+}
+
+abbr {
+  text-transform: capitalize;
+}
+
+mark  {
+  color: var(--color-primary);
+  background-color: var(--color-accent);
+}
