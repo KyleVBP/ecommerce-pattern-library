@@ -2,7 +2,16 @@ permalink: pretty
 theme: jekyll_patternbot
 
 patternbot:
-  title: MusicPoint;
+  title: MusicPoint
   description: |
-    A website with everything ranging from CDs, Vinyl, and Merchanise for current popular music artists.;
+    A website with everything ranging from CDs, Vinyl, and Merchanise for current popular music artists.
   font_url: "https://fonts.googleapis.com/css?family=Roboto+Slab:300,400,700|Sarabun:300,400,600,700"
+  rationales:
+    typefaces.primary: |
+      Sarabun was selected because it is appealing as a sans-serif font while also being unique giving MusicPoint it's on identity.
+    typefaces.secondary: |
+      Roboto Slab was used for the logo type as well as certain headers to help contrast with Sarabun, based on what MusicPoint sells it makes more sense to contrast with a slab rather than a serif.
+    colors.primary: |
+      The dark blue was chosen for header and footer as well as type and the logo.
+    colors.secondary: |
+      This lighter blue was chosen so the bulk of the website would be easier to see.
