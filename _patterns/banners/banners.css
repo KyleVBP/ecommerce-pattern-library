@@ -12,6 +12,9 @@
   text-shadow: 0 0 8px rgba(0, 0, 0, .6);
   font-family: var(--font-secondary);
   font-weight: 300;
+}
+
+.grey-txt {
   color: var(--color-neutral-dark-grey);
 }
 
