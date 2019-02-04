@@ -1,0 +1,21 @@
+.banner {
+  position: relative;
+  border-bottom: 2px solid var(--color-secondary-dark);
+}
+
+.banner-text {
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  transform: translateX(-50%);
+  text-align: center;
+  text-shadow: 0 0 8px rgba(0, 0, 0, .6);
+  font-family: var(--font-secondary);
+  font-weight: 300;
+  color: var(--color-neutral-dark-grey);
+}
+
+.spot-banner {
+  border: 2px solid var(--color-secondary);
+  background-color: var(--color-primary);
+}
