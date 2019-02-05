@@ -1,0 +1,25 @@
+title: "Buttons"
+description: |
+  Buttons should be used in situations where a dramatic, obvious action is required. Try not to over use buttons because they should be the primary call-to-action for a screen.
+
+patterns:
+  basic:
+    title: "Basic"
+    description: |
+      Default to using the basic button, it is used on the homepage for cards and banners, as well as on product pages for adding an item to the cart.
+  ghost:
+    title: "Ghost"
+    description: |
+      The ghost button is specifically used for recommendation cards that appear on product pages
+  light:
+    title: "Light"
+    description: |
+      The light button is used for product cards that appear on the product list page.
+  confirm:
+    title: "Confirm"
+    description: |
+      The confirm button is used for confirming an action.
+  remove:
+    title: "Remove"
+    description: |
+      The remove button is used for removing an item from the cart.

@@ -1,0 +1,25 @@
+title: "Cards"
+description: |
+  Cards should be used for display CD, Vinyl, or Merchandise products, as well as for site information cards
+
+patterns:
+  card:
+    title: "Basic"
+    description: |
+      The basic card is used on a product list page and displays available products.
+    width: "20em"
+  info-card:
+    title: "Info Card"
+    description: |
+      The info card is used at the bottom of the homepage to describe the site.
+    width: "20em"
+  prod-card:
+    title: "Product Card"
+    description: |
+      The product card is used on the home page and displays the 3 available types of products.
+    width: "20em"
+  reco-card:
+    title: "Recommended Card"
+    description: |
+      The recommended card is used on a product page and displays similar proucts to the one the user is currently viewing.
+    width: "20em"
