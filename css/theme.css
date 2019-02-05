@@ -39,7 +39,7 @@ h4 {
 }
 
 h5 {
-  color: var(--color-neutral-dark-grey);
+  color: var(--color-neutral-mid-grey);
   font-weight: 700;
   font-variant: small-caps;
   text-transform: lowercase;

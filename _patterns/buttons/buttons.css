@@ -29,3 +29,11 @@
   border-color: var(--color-secondary-light);
   color: var(--color-neutral-dark-grey);
 }
+
+.btn-cnfrm {
+  padding: 6px;
+}
+
+.btn-dlt {
+  padding: 6px;
+}

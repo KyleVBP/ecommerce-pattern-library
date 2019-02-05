@@ -3,15 +3,20 @@
   border-bottom: 2px solid var(--color-secondary-dark);
 }
 
-.banner-text {
+.banner-txt {
   position: absolute;
   top: 20%;
   left: 50%;
   transform: translateX(-50%);
   text-align: center;
-  text-shadow: 0 0 8px rgba(0, 0, 0, .6);
+}
+
+.h-txt {
   font-family: var(--font-secondary);
-  font-weight: 300;
+}
+
+.txt-shadow {
+  text-shadow: 0 0 8px rgba(0, 0, 0, .6);
 }
 
 .grey-txt {
