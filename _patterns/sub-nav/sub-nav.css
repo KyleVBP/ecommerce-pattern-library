@@ -1,0 +1,42 @@
+.sub-nav {
+  border: 0px;
+  background-color: var(--color-primary-light);
+  text-transform: uppercase;
+  font-weight: 400;
+}
+
+.sub-nav:hover {
+  font-weight: bold;
+  color: var(--color-primary);
+  background-color: var(--color-secondary-light);
+  text-decoration: none;
+}
+
+.current {
+  font-weight: bold;
+  color: var(--color-secondary);
+  text-decoration: underline;
+}
+
+.breadcrumb {
+  color: var(--color-neutral-light-grey);
+  font-variant: small-caps;
+  text-transform: lowercase;
+}
+
+.breadcrumb:hover {
+  color: var(--color-secondary-light);
+  text-decoration: none;
+}
+
+.pg-turn {
+  padding: 3px 8px 8px;
+  border-radius: 5px;
+  border: 2px solid var(--color-secondary-dark);
+  background-color: var(--color-primary);
+  display: inline-block;
+}
+
+.pg-turn:hover {
+  background-color: var(--color-secondary-dark)
+}

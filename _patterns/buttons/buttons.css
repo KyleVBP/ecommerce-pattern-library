@@ -37,3 +37,11 @@
 .btn-dlt {
   padding: 6px;
 }
+
+.btn-cnfrm:hover {
+  text-decoration: none;
+}
+
+.btn-dlt:hover {
+  text-decoration: none;
+}
