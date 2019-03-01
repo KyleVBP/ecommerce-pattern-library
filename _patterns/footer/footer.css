@@ -1,3 +1,13 @@
 .footer {
   background-color: var(--color-neutral-dark-grey);
 }
+
+.btn-footer {
+  background-color: var(--color-transparent);
+  border-color:var(--color-transparent);
+  color: var(--color-accent);
+}
+
+.btn-footer:hover {
+  color: var(--color-neutral-white);
+}
