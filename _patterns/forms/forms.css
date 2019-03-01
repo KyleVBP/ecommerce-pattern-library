@@ -1,3 +1,7 @@
+.label-text {
+  color: var(--color-neutral-light-grey);
+}
+
 .flag-optional {
   color: #999;
 }

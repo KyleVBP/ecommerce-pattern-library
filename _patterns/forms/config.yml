@@ -3,7 +3,19 @@ description: |
   Forms are used for inputing information when purchasing an item.
 
 patterns:
-  error:
-    title: "Error"
+  text-input:
+    title: "Text Input"
     description: |
-      The error message will show when information is missing or incomplete.
+      The text input is used for a majority of information on the checkout page.
+  email-input:
+    title: "Email Input"
+    description: |
+      The email input is used for a inputting a valid email address on the checkout page.
+  dropdown-input:
+    title: "Dropdown Input"
+    description: |
+      The dropdown input is used for selecting a province and country on the checkout page.
+  checkbox-input:
+    title: "Checkbox Input"
+    description: |
+      The checkbox input is used for selecting a confirmation on the checkout page.
