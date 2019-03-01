@@ -6,10 +6,11 @@
 .btn-footer {
   background-color: var(--color-transparent);
   border-color:var(--color-transparent);
-  color: var(--color-accent);
+  color: var(--color-accent-light);
 }
 
 .btn-footer:hover {
   background-color: var(--color-transparent);
+  border-color: var(--color-transparent);
   color: var(--color-neutral-white);
 }
