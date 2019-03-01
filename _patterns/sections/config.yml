@@ -1,0 +1,10 @@
+title: "Sections"
+description: |
+  Sections are used for pictures or text within groupings.
+
+patterns:
+  image-wheel:
+    title: "Image Wheel"
+    description: |
+      The image wheel is used on product pages to display multiple images of the same products.
+    width: "32em"

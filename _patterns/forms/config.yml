@@ -1,0 +1,9 @@
+title: "Forms"
+description: |
+  Forms are used for inputing information when purchasing an item.
+
+patterns:
+  error:
+    title: "Error"
+    description: |
+      The error message will show when information is missing or incomplete.

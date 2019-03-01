@@ -1,0 +1,21 @@
+title: "Secondary Navigation"
+description: |
+  Secondary Navigations include page buttons, breadcrumbs, and the sidebar nav.
+
+patterns:
+  sub-nav:
+    title: "Sidebar"
+    description: |
+      The sub nav item is used for sidebar navigation when viewing the multiple products to toggle which products are being viewed.
+  breadcrumb:
+    title: "Breadcrumb"
+    description: |
+      The breadccrumb are used to show where you are on the site and how you got there, allows for easy backtracking.
+  pg-left:
+    title: "Page Left"
+    description: |
+      The page left button will go to the previous page of products when viewing the product list.
+  pg-right:
+    title: "Page Right"
+    description: |
+      The page right button will go to the previous page of products when viewing the product list.
