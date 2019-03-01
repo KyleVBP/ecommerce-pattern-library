@@ -1,5 +1,6 @@
 .footer {
   background-color: var(--color-neutral-dark-grey);
+  text-align: center;
 }
 
 .btn-footer {
@@ -9,5 +10,6 @@
 }
 
 .btn-footer:hover {
+  background-color: var(--color-transparent);
   color: var(--color-neutral-white);
 }
