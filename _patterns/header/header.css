@@ -66,17 +66,17 @@
 .btn-header {
   display: block;
   padding: .5em;
-  color: var(--color-neutral-light-grey);
+  color: var(--color-neutral-dark-grey);
   background-color: var(--color-secondary);
   border: 1px solid var(--color-secondary);
-  border-radius: 5px;
+  border-radius: 0px;
 }
 
 .btn-header:hover {
   background-color: var(--color-secondary-dark);
   color: var(--color-neutral-light-grey);
   border: 1px solid var(--color-secondary-dark);
-  border-radius: 5px;
+  border-radius: 0px;
   text-decoration: none;
 }
 
@@ -95,7 +95,7 @@
   .btn-header {
     display: block;
     padding: .5em;
-    color: var(--color-neutral-light-grey);
+    color: var(--color-neutral-dark-grey);
     background-color: var(--color-secondary);
     border: 1px solid var(--color-secondary);
     border-radius: 5px;
