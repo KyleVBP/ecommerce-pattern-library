@@ -30,7 +30,7 @@
 }
 
 .pg-turn {
-  padding: 1px 8px 6px;
+  padding: 3px 8px 8px;
   border-radius: 5px;
   border: 2px solid var(--color-secondary-dark);
   background-color: var(--color-primary);
