@@ -1,0 +1,13 @@
+title: "Footer"
+description: |
+  The footer is used at the bottom of most pages, excluding checkout pages.
+
+patterns:
+  btn-footer:
+    title: "Footer Button"
+    description: |
+      The footer button is used for links that are located in the footer.
+  footer:
+    title: "Footer"
+    description: |
+      The footer is used at the bottom of most pages, excluding the checkout pages.
