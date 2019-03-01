@@ -1,0 +1,15 @@
+.btn-header {
+  color: var(--color-neutral-light-grey);
+  background-color: var(--color-secondary);
+  border: 2px solid var(--color-secondary-dark);
+  border-radius: 5px;
+}
+
+.btn-header:hover {
+  background-color: var(--color-secondary-dark);
+  color: var(--color-neutral-dark-grey);
+}
+
+.header {
+  background-color: var(--color-primary);
+}
