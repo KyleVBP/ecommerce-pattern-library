@@ -9,6 +9,7 @@
   --color-neutral-mid-grey: #3c3c3c;
   --color-neutral-dark-grey: #282828;
   --color-neutral-white: #fff;
+  --color-transparent: rgba(0, 0, 0, 0);
   --font-primary: "Sarabun", Arial, sans-serif;
   --font-secondary: "Roboto Slab", Arial, sans-serif;
 }
