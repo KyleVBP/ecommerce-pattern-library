@@ -4,6 +4,14 @@
   border-bottom: 2px solid var(--color-accent);
 }
 
+.head-txt {
+  margin: 0;
+  padding: 0;
+  font-family: var(--font-secondary);
+  font-weight: 300;
+  color: var(--color-neutral-light-grey);
+}
+
 .icon-1 {
   width: 160px;
 }
