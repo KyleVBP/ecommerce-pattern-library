@@ -56,7 +56,6 @@
 
 .btn-header {
   display: block;
-  padding: .5em;
   color: var(--color-neutral-dark-grey);
   background-color: var(--color-secondary);
   border: 1px solid var(--color-secondary);
