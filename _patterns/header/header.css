@@ -50,27 +50,6 @@
   border-bottom: 0;
 }
 
-.nav-check {
-  position: absolute;
-  top: -3em;
-}
-
-.nav-check:checked ~ .nav {
-  display: block;
-}
-
-.nav-label {
-  cursor: pointer;
-}
-
-.nav-check:checked ~ .nav-label .nav-open {
-  display: none;
-}
-
-.nav-check:checked ~ .nav-label .nav-close {
-  display: block;
-}
-
 .btn-header {
   display: block;
   padding: .5em;
