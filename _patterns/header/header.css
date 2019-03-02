@@ -4,6 +4,10 @@
   border-bottom: 2px solid var(--color-accent);
 }
 
+.logo {
+  text-align: center;
+}
+
 .head-txt {
   margin: 0;
   padding: 0;
@@ -22,6 +26,7 @@
   list-style-type: none;
   clear: both;
   border-top: 2px solid var(--color-accent);
+  text-align: center;
 }
 
 /*
@@ -67,6 +72,10 @@
 }
 
 @media only screen and (min-width: 38em) {
+
+  .logo {
+    text-align: left;
+  }
 
   .nav {
     margin: 0;
