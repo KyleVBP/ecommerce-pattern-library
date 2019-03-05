@@ -94,14 +94,12 @@
     color: var(--color-neutral-dark-grey);
     background-color: var(--color-secondary);
     border: 1px solid var(--color-secondary);
-    border-radius: 5px;
   }
 
   .btn-header:hover {
     background-color: var(--color-secondary-dark);
     color: var(--color-neutral-light-grey);
     border: 1px solid var(--color-secondary-dark);
-    border-radius: 5px;
     text-decoration: none;
   }
 
