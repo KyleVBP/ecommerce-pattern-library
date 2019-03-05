@@ -11,7 +11,7 @@ patterns:
     fields:
       - name: heading-btn
         type: string
-        example: "Shop Freely"
+        example: "Shop Easily"
       - name: heading-txt
         type: string
         example: "With our Large Range of Products"
