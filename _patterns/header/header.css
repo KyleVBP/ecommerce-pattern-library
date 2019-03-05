@@ -85,6 +85,7 @@
     clear: none;
     border-top: 0;
     float: right;
+    overflow: hidden;
   }
 
   .btn-header {
@@ -107,43 +108,11 @@
   .nav li {
     border-bottom: 0;
     display: inline-block;
+    padding: 1.25em .3em;
   }
 
   .nav li:last-child {
     border-bottom: 0;
-  }
-
-  .nav-check {
-    position: absolute;
-    top: -3em;
-  }
-
-  .nav-check:checked ~ .nav {
-    display: block;
-  }
-
-  .nav-label {
-    cursor: pointer;
-  }
-
-  .nav-check:checked ~ .nav-label {
-    background-color: var(--color-primary);
-  }
-
-  .nav-open {
-    display: none;
-  }
-
-  .nav-close {
-    display: none;
-  }
-
-  .nav-check:checked ~ .nav-label .nav-open {
-    display: block;
-  }
-
-  .nav-check:checked ~ .nav-label .nav-close {
-    display: block;
   }
 
 }
