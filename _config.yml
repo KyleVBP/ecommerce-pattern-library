@@ -11,6 +11,9 @@ patternbot:
     accent: "--color-neutral-light-grey"
     patterns:
       brand.logos: "--color-primary"
+  layouts:
+    defaults: |
+      The default layout should be used for almost every site page, it contains the header and footer.
   rationales:
     typefaces.primary: |
       Sarabun was selected because it is appealing as a sans-serif font while also being unique giving MusicPoint it's on identity.
