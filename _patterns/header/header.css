@@ -108,12 +108,12 @@
   .nav li {
     border-bottom: 0;
     display: inline-block;
-    padding: 1.25em .3em;
+    padding: 1em .3em;
   }
 
   .nav li:last-child {
     border-bottom: 0;
-    padding-right: 1.25em;
+    padding-right: 1.3em;
   }
 
 }
