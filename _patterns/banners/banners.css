@@ -1,6 +1,5 @@
 .banner {
   position: relative;
-  border-bottom: 2px solid var(--color-secondary-dark);
 }
 
 .banner-txt {
