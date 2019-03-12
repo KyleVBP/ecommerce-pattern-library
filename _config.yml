@@ -25,3 +25,6 @@ patternbot:
       The lighter blue is used for accenting, buttons, and borders.
     colors.accent: |
       The accent blue is used for certain hover states, and footer text.
+  collections:
+    products:
+      output: true
