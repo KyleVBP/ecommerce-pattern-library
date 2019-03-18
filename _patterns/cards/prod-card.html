@@ -1,5 +1,5 @@
 <div class="card prod-card text-center island-1-2">
-  <img class="img-flex gutter" src="{{include.data.img}}" alt="">
+  <svg class="icon"><use xlink:href="{{include.prod-svg}}"/></svg>
   <h3 class="giga">{{include.title-txt}}</h3>
   {% if include.button_url %}
     {% pattern buttons/basic url=include.button_url text=include.button_text %}
