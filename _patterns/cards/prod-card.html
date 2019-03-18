@@ -1,5 +1,7 @@
 <div class="card prod-card text-center island-1-2">
-  <img class="img-flex gutter" src="/images/placeholder/placeholder-1by1.svg" alt="">
-  <h3 class="giga">{{include.data.products}}</h3>
-  {% pattern buttons/basic text="Browse Products" %}
+  <img class="img-flex gutter" src="{{include.data.img}}" alt="">
+  <h3 class="giga">{{include.title-txt}}</h3>
+  {% if include.button_url %}
+    {% pattern buttons/basic url=include.button_url text=include.button_text %}
+  {% endif %}
 </div>
