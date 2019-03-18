@@ -1,9 +1,10 @@
 ---
-name: "american dream LCD Soundsystem"
+album: "american dream"
+artist: "LCD Soundsystem"
 description: |
   The fourth studio album from LCD Soundsystem, released September 1, 2017.
 non-conflict: true
-image: "/images/albums/american-dream.jpg"
+img: "/images/albums/american-dream.jpg"
 price: 10
 colors:
   - "blue"

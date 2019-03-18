@@ -8,6 +8,12 @@ patterns:
     description: |
       The basic card is used on a product list page and displays available products.
     width: "20em"
+    fields:
+      - name: data
+        type: object
+        data:
+          source: "site.products[0]"
+          type: Product
   info-card:
     title: "Info Card"
     description: |

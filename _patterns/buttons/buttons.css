@@ -14,8 +14,10 @@
 
 .btn-ghost {
   background-color: transparent;
-  color: var(--color-neutral-light-grey);
+  color: var(--color-secondary);
   border-color: var(--color-primary);
+  padding: 0;
+  border: 0;
 }
 
 .btn-ghost:hover {

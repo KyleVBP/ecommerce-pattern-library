@@ -1,9 +1,9 @@
 <div class="card island-1-2">
-  <img class="img-flex gutter" src="/images/placeholder/placeholder-1by1.svg" alt="">
+  <img class="img-flex gutter" src="{{include.data.img}}" alt="">
   <div class="gutter">
-    <h3 class="push-none">Album</h3>
-    <h5 class="push-none">Artist</h5>
-    <h4>Price</h4>
-    {% pattern buttons/basic %}
+    <h3 class="mega push-none">{{include.data.album}}</h3>
+    <h5 class="push-none">{{include.data.artist}}</h5>
+    <h4 class="kilo">${{include.data.price}}</h4>
+    {% pattern buttons/basic text="View Product" url=include.data.url %}
   </div>
 </div>

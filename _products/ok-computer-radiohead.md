@@ -1,9 +1,10 @@
 ---
-name: "OK Computer Radiohead"
+album: "OK Computer"
+artist: "Radiohead"
 description: |
   The third studio album from Radiohead, released June 16, 1997.
 non-conflict: true
-image: "/images/albums/ok-computer.jpg"
+img: "/images/albums/ok-computer.jpg"
 price: 10
 colors:
   - "blue"
