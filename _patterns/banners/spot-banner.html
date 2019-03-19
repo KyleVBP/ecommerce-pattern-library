@@ -1,12 +1,14 @@
 <div class="spot-banner grid">
   <div class="unit s-1 m-1-2 l-1-2">
-    <img class="img-flex" src="/images/placeholder/placeholder-1by1.svg" alt="">
+    <img class="img-flex" src="{{include.spot-img}}" alt="">
   </div>
   <div class="unit s-1 m-1-2 l-1-2 island-1-2">
-    <h3 class="push-none">Album</h3>
-    <h5 class="push-none">Artist</h5>
-    <p>Description</p>
-    <h4>Price</h4>
-    {% pattern buttons/basic %}
+    <h3 class="giga push-none">{{include.spot-album}}</h3>
+    <h5 class="push-none">{{include.spot-artist}}</h5>
+    <p>{{include.spot-desc}}</p>
+    <h4 class="mega">${{include.spot-price}}</h4>
+    {% if include.button_url %}
+      {% pattern buttons/basic url=include.button_url text=include.button_text %}
+    {% endif %}
   </div>
 </div>

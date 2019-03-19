@@ -24,6 +24,10 @@ patterns:
     description: |
       The product card is used on the home page and displays the 3 available types of products.
     width: "20em"
+    fields:
+      - name: prod-title
+        type: string
+        example: "Available CDs"
   reco-card:
     title: "Recommended Card"
     description: |

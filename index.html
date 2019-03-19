@@ -9,25 +9,23 @@ layout: default
 <div class="grid gutter-1-2 push-1-2">
 
   <div class="unit [ xs-1 s-1-2 m-1-3 l-1-3 ] island-1-4">
-    {% pattern cards/prod-card button_text="View CDs" button_url="/products/" title-txt="Available CDs" prod-svg="/images/icons.svg#cd" %}
+    {% pattern cards/prod-card button_text="View CDs" button_url="/products/" prod-title="Available CDs" prod-svg="/images/icons.svg#cd" %}
   </div>
 
   <div class="unit [ xs-1 s-1-2 m-1-3 l-1-3 ] island-1-4">
-    {% pattern cards/prod-card button_text="View Vinyl" button_url="/products/" title-txt="Available Vinyl" prod-svg="/images/icons.svg#vinyl" %}
+    {% pattern cards/prod-card button_text="View Vinyl" button_url="/products/" prod-title="Available Vinyl" prod-svg="/images/icons.svg#vinyl" %}
   </div>
 
   <div class="unit [ xs-1 s-1-1 m-1-3 l-1-3 ] island-1-4">
-    {% pattern cards/prod-card button_text="View Digital" button_url="/products/" title-txt="Available MP3" prod-svg="/images/icons.svg#merch" %}
+    {% pattern cards/prod-card button_text="View Digital" button_url="/products/" prod-title="Available MP3" prod-svg="/images/icons.svg#merch" %}
   </div>
 
 </div>
 
 <h2 class="gutter-1-4">Artist Spotlight</h2>
 
-<div class="grid gutter-1-4">
-  {% for product in site.products %}
-    <div class="unit [ xs-1 s-1-2 m-1-2 l-1-3 ] island-1-4">
-      {% pattern cards/card data=product %}
-    </div>
-  {% endfor %}
+<div class="gutter-1-2 push-1-2">
+  <div class="island-1-4">
+    {% pattern banners/spot-banner button_text="View Album" button_url="/products/the-dream-is-over-pup" spot-album="The Dream is Over" spot-artist="PUP" spot-desc="Description placeholder" spot-price="10" %}
+  </div>
 </div>

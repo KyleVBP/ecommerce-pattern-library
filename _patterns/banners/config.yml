@@ -19,6 +19,19 @@ patterns:
     description: |
       The call to action banner is used to promote certain items, or sales on the site, with a button to link to the location of the advertised item.
   spot-banner:
+    fields:
+      - name: spot-album
+        type: string
+        example: "The Dream is Over"
+      - name: spot-artist
+        type: string
+        example: "PUP"
+      - name: spot-desc
+        type: string
+        example: "Description of the album"
+      - name: spot-price
+        type: string
+        example: "10"
     title:
     description: |
       The spotlight banner is used to promote current top artists on the website, designed differently than the call to action so it can provide more information on the promotion.
