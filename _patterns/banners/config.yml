@@ -6,10 +6,17 @@ patterns:
   banner:
     title: "Top of Page"
     description: |
-      The main top of page banner is used first on the homepage to catch the attention of a visitor and encourage them to shop.
+      The main top of page banner is used first on the product list page to catch the attention of a visitor and encourage them to shop.
+    fields:
+      - name: heading-title
+        type: string
+        example: "50% off sale on select items"
+      - name: heading-txt
+        type: string
+        example: "Only for a limited time"
   banner-btn:
     fields:
-      - name: heading-btn
+      - name: heading-title
         type: string
         example: "Shop Easily"
       - name: heading-txt
