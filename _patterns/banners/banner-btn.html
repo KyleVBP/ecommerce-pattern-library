@@ -5,8 +5,8 @@
   <div class="banner-txt">
     <h2 class="h-txt txt-shadow">{{include.heading-title}}</h2>
     <p class="txt-shadow">{{include.heading-txt}}</p>
-    {% if include.button_url %}
-      {% pattern buttons/basic url=include.button_url text=include.button_text %}
+    {% if include.button-url %}
+      {% pattern buttons/basic button-url=include.button-url button-txt=include.button-text %}
     {% endif %}
   </div>
 </div>

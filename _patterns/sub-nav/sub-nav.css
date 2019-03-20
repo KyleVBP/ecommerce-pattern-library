@@ -12,6 +12,40 @@
   text-decoration: none;
 }
 
+.sub-nav-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.sub-nav-list div {
+  width: 50%;
+}
+
+@media only screen and (min-width: 38em) {
+
+  .sub-nav-list {
+    flex-wrap: nowrap;
+    justify-content: space-between;
+  }
+
+  .sub-nav-list div {
+    width: auto;
+  }
+
+}
+
+@media only screen and (min-width: 60em) {
+
+  .sub-nav-list {
+    display: block;
+  }
+
+  .sub-nav-list div {
+    width: 100%;
+  }
+
+}
+
 .current {
   font-weight: bold;
   color: var(--color-secondary);

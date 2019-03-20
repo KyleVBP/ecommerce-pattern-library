@@ -1,0 +1,8 @@
+- sub-nav-txt: All
+  sub-nav-url: /products
+- sub-nav-txt: CDs
+  sub-nav-url: /cd
+- sub-nav-txt: Vinyl
+  sub-nav-url: /vinyl
+- sub-nav-txt: Digital
+  sub-nav-url: /digital

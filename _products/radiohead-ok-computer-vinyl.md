@@ -1,14 +1,9 @@
 ---
 album: "OK Computer"
 artist: "Radiohead"
-description: |
+desc: |
   The third studio album from Radiohead, released June 16, 1997.
-non-conflict: true
 img: "/images/albums/ok-computer.jpg"
-price: 10
-colors:
-  - "blue"
-  - "white"
-shape: "square"
-clarity: "VVS1"
+price: 25
+category: vinyl
 ---

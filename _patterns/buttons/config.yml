@@ -4,26 +4,42 @@ description: |
 
 patterns:
   basic:
-    fields:
-      - name: button_text
-        type: string
-        example: "View Products"
-        required: false
-      - name: button_url
-        type: url
-        example: "/products/"
-        required: false
     title: "Basic"
     description: |
       Default to using the basic button, it is used on the homepage for cards and banners, as well as on product pages for adding an item to the cart.
+    fields:
+      - name: button-txt
+        type: string
+        example: "View Products"
+        required: false
+      - name: button-url
+        type: url
+        example: "/products/"
+        required: false
   ghost:
     title: "Ghost"
     description: |
       The ghost button is specifically used for recommendation cards that appear on product pages
+    - name: button-text
+      type: string
+      example: "View Album"
+      required: false
+    - name: button-url
+      type: url
+      example: "/products/radiohead-ok-computer"
+      required: false
   light:
     title: "Light"
     description: |
       The light button is used for product cards that appear on the product list page.
+    - name: button-text
+      type: string
+      example: "View Album"
+      required: false
+    - name: button-url
+      type: url
+      example: "/products/"
+      required: false
   confirm:
     title: "Confirm"
     description: |

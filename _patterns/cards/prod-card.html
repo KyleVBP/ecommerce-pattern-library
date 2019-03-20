@@ -2,6 +2,6 @@
   <svg class="icon img-flex push-none"><use xlink:href="{{include.prod-svg}}"/></svg>
   <h3 class="giga push-1-2">{{include.prod-title}}</h3>
   {% if include.button_url %}
-    {% pattern buttons/basic url=include.button_url text=include.button_text %}
+    {% pattern buttons/basic button-url=include.button_url button-txt=include.button_text %}
   {% endif %}
 </div>

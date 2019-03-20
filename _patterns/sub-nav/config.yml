@@ -7,6 +7,13 @@ patterns:
     title: "Sidebar"
     description: |
       The sub nav item is used for sidebar navigation when viewing the multiple products to toggle which products are being viewed.
+    fields:
+      - name: sub-nav-txt
+        type: string
+        example: "All"
+      - name: sub-nav-url
+        type: url
+        example: "/products/"
   breadcrumb:
     title: "Breadcrumb"
     description: |
