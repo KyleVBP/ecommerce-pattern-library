@@ -4,7 +4,7 @@ theme: jekyll_patternbot
 patternbot:
   title: MusicPoint
   description: |
-    A website with everything ranging from CDs, Vinyl, and Merchanise for current popular music artists.
+    A website with everything ranging from CDs, Vinyl, and Digital downloads for a wide range of music artists.
   font_url: "https://fonts.googleapis.com/css?family=Roboto+Slab:300,400,700|Sarabun:300,400,600,700"
   colors:
     background: "--color-primary-light"

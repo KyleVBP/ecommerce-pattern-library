@@ -20,7 +20,7 @@ patterns:
     title: "Ghost"
     description: |
       The ghost button is specifically used for recommendation cards that appear on product pages
-    - name: button-text
+    - name: button-txt
       type: string
       example: "View Album"
       required: false
@@ -32,7 +32,7 @@ patterns:
     title: "Light"
     description: |
       The light button is used for product cards that appear on the product list page.
-    - name: button-text
+    - name: button-txt
       type: string
       example: "View Album"
       required: false
@@ -44,7 +44,23 @@ patterns:
     title: "Confirm"
     description: |
       The confirm button is used for confirming an action.
+    - name: button-txt
+      type: string
+      example: "Confirm"
+      required: false
+    - name: button-url
+      type: url
+      example: "/products/"
+      required: false
   remove:
     title: "Remove"
     description: |
       The remove button is used for removing an item from the cart.
+    - name: button-txt
+      type: string
+      example: "Cancel"
+      required: false
+    - name: button-url
+      type: url
+      example: "/products/"
+      required: false

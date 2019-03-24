@@ -1,3 +1,12 @@
+# MusicPoint
+
+A website with everything ranging from CDs, Vinyl, and Digital downloads for a wide range of music artists.
+
+## MusicPoint Pattern library
+
+Project for Algonquin College Graphic Design program, Web Dev level 4
+https://clever-easley-95bc3d.netlify.com/pattern-library/#brand
+
 ## Installation
 
 The pattern library is a Jekyll & Patternbot based application, so it requires Ruby to be installed.
@@ -17,3 +26,7 @@ The pattern library is a Jekyll & Patternbot based application that requires a r
 2. Type the following command: `bundle exec jekyll serve`
 3. View the functional website at: [http://localhost:4000](http://localhost:4000)
 4. View the pattern library at: [http://localhost:4000/pattern-library/](http://localhost:4000/pattern-library/)
+
+### Copyright
+
+© Kyle Pereira 2019
