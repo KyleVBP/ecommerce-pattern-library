@@ -7,10 +7,18 @@ patterns:
     title: "Text Input"
     description: |
       The text input is used for a majority of information on the checkout page.
+    fields:
+    - name: text-label
+      type: string
+      example: "Input text"
   email-input:
     title: "Email Input"
     description: |
       The email input is used for a inputting a valid email address on the checkout page.
+    fields:
+    - name: email-label
+      type: string
+      example: "Email"
   dropdown-input:
     title: "Dropdown Input"
     description: |
