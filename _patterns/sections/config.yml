@@ -8,3 +8,20 @@ patterns:
     description: |
       The image wheel is used on product pages to display multiple images of the same products.
     width: "32em"
+    fields:
+    - name: caro-image-1
+      type: image
+      example: "/images/placeholder/placeholder-1by1.svg"
+      required: true
+    - name: caro-image-2
+      type: image
+      example: "/images/placeholder/placeholder-1by1.svg"
+      required: false
+    - name: caro-image-3
+      type: image
+      example: "/images/placeholder/placeholder-1by1.svg"
+      required: false
+    - name: caro-image-4
+      type: image
+      example: "/images/placeholder/placeholder-1by1.svg"
+      required: false
