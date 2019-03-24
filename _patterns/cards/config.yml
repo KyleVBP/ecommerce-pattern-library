@@ -19,6 +19,12 @@ patterns:
     description: |
       The info card is used at the bottom of the homepage to describe the site.
     width: "20em"
+    - name: info-title
+      type: string
+      example: "About Us"
+    - name: info-desc
+      type: string
+      example: "MusicPoint is an ecommerce website for purchasing digital and physical copies of music."
   prod-card:
     title: "Product Card"
     description: |
@@ -28,8 +34,16 @@ patterns:
       - name: prod-title
         type: string
         example: "Available CDs"
+      - name: prod-svg
+        type: image
   reco-card:
     title: "Recommended Card"
     description: |
       The recommended card is used on a product page and displays similar proucts to the one the user is currently viewing.
     width: "20em"
+    fields:
+      - name: data
+        type: object
+        data:
+          source: "site.products[0]"
+          type: Product

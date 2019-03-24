@@ -15,7 +15,18 @@ patterns:
     title: "Dropdown Input"
     description: |
       The dropdown input is used for selecting a province and country on the checkout page.
+    fields:
+    - name: drop-label
+      type: string
+      example: "Province"
+    - name: drop-option
+      type: string
+      example: "Ontario"
   checkbox-input:
     title: "Checkbox Input"
     description: |
       The checkbox input is used for selecting a confirmation on the checkout page.
+    fields:
+    - name: checkbox-label
+      type: string
+      example: "Accept"
