@@ -7,6 +7,8 @@ A website with everything ranging from CDs, Vinyl, and Digital downloads for a w
 Project for Algonquin College Graphic Design program, Web Dev level 4
 https://clever-easley-95bc3d.netlify.com/pattern-library/#brand
 
+---
+
 ## Installation
 
 The pattern library is a Jekyll & Patternbot based application, so it requires Ruby to be installed.
