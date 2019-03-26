@@ -27,6 +27,11 @@ The pattern library is a Jekyll & Patternbot based application that requires a r
 3. View the functional website at: [http://localhost:4000](http://localhost:4000)
 4. View the pattern library at: [http://localhost:4000/pattern-library/](http://localhost:4000/pattern-library/)
 
+## Collaborators
+
+- [@onuo0005](https://github.com/onuo0005)
+- [@KyleVBP](https://github.com/KyleVBP)
+
 ### Copyright
 
 © Kyle Pereira 2019
