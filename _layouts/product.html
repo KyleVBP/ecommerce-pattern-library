@@ -1,8 +1,21 @@
 ---
 layout: default
 ---
+<div class="gutter-1-4 push-1-2">
+  <div class="island-1-4">
+    {% assign product=site.products[1] %}
+    {% pattern banners/spot-banner data=product %}
+  </div>
+</div>
 
-<h3 class="mega">{{page.album}}</h3>
-<h5>{{page.artist}}</h5>
-<p>{{page.desc}}</p>
-<img class="img-flex gutter" src="{{page.img}}" alt="">
+
+<div class="gutter-1-4">
+  <h2 class="push-1-4 gutter-1-2 text-center">Suggestions</h2>
+  <div class="grid">
+    {% for product in site.products limit:4 %}
+      <div class="unit [ xs-1 s-1-2 m-1-4 l-1-4 xl-1-4 ] island-1-4">
+        {% pattern cards/card data=product %}
+      </div>
+    {% endfor %}
+  </div>
+</div>
