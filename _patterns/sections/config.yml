@@ -25,3 +25,7 @@ patterns:
       type: image
       example: "/images/placeholder/placeholder-1by1.svg"
       required: false
+    title: "Product Details"
+    description: |
+      The image wheel is used on product pages to display multiple images of the same products.
+    width: "32em"
