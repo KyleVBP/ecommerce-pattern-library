@@ -35,6 +35,7 @@ https://projects.invisionapp.com/boards/SW3S9K6UEHK/
 
 ## Collaborators
 
+- [@TyannaB](https://github.com/tyannab)
 - [@onuo0005](https://github.com/onuo0005)
 - [@KyleVBP](https://github.com/KyleVBP)
 
