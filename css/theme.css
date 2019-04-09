@@ -92,3 +92,7 @@ mark  {
   color: var(--color-primary);
   background-color: var(--color-accent);
 }
+
+table {
+  color: var(--color-neutral-light-grey);
+}
