@@ -2,39 +2,50 @@
 layout: default
 ---
 
-<h2 class="gutter">Contact Info and Address</h2>
+<div class="gutter-1-2">
+  <h2 >Contact Info and Address</h2>
+</div>
+
 
 <form class="grid wrapper push-1-2" novalidate>
-  <div class="unit xs-1 s-1 m-1 l-1">
+  <div class="unit xs-1 s-1 m-1 l-1 gutter-1-4">
     {% pattern forms/email-input email-label="Email" %}
   </div>
-  <div class="unit xs-1 s-1 m-1-2 l-1-2 gutter-1-2">
+
+  <div class="unit xs-1 s-1 m-1-2 l-1-2 gutter-1-4">
     {% pattern forms/text-input text-label="First Name" %}
   </div>
-  <div class="unit xs-1 s-1 m-1-2 l-1-2 gutter-1-2">
+  <div class="unit xs-1 s-1 m-1-2 l-1-2 gutter-1-4">
     {% pattern forms/text-input text-label="Last Name" %}
   </div>
-  <div class="unit xs-1 s-1 m-1 l-1">
+
+
+  <div class="unit xs-1 s-1 m-1 l-1 gutter-1-4">
     {% pattern forms/text-input text-label="Adress" %}
   </div>
-  <div class="unit xs-1 s-1 m-1 l-1">
+
+  <div class="unit xs-1 s-1 m-1 l-1 gutter-1-4">
     {% pattern forms/text-input text-label="Apt Number" %}
   </div>
-  <div class="unit xs-1 s-1 m-1 l-1">
+
+  <div class="unit xs-1 s-1 m-1 l-1 gutter-1-4">
     {% pattern forms/text-input text-label="City" %}
   </div>
-  <div class="unit xs-1 s-1 m-1-3 l-1-3 gutter-1-2">
+
+  <div class="unit xs-1 s-1 m-1-3 l-1-3 gutter-1-4">
       {% pattern forms/dropdown-input-country drop-label="Country" %}
   </div>
-  <div class="unit xs-1 s-1 m-1-3 l-1-3 gutter-1-2">
+  <div class="unit xs-1 s-1 m-1-3 l-1-3 gutter-1-4">
       {% pattern forms/dropdown-input drop-label="Province" %}
   </div>
-  <div class="unit xs-1 s-1 m-1-3 l-1-3 gutter-1-2">
+  <div class="unit xs-1 s-1 m-1-3 l-1-3 gutter-1-4">
       {% pattern forms/text-input text-label="Postal Code" %}
   </div>
-  <div class="unit xs-1 s-1 m-1 l-1">
+
+  <div class="unit xs-1 s-1 m-1 l-1 gutter-1-4">
     {% pattern forms/text-input text-label="Phone Number" %}
   </div>
+
   <div class="unit xs-1 s-1 m-1 l-1 text-center">
     {% pattern buttons/confirm button-txt="Confirm Checkout" %}
   </div>
