@@ -10,6 +10,11 @@
   text-align: center;
 }
 
+.banner-prom {
+  background-color: var(--color-alert-red);
+  text-align: center;
+}
+
 .h-txt {
   font-family: var(--font-secondary);
 }
