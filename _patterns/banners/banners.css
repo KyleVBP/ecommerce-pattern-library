@@ -1,5 +1,7 @@
 .banner {
   position: relative;
+  max-height: 50vh;
+  overflow: hidden;
 }
 
 .banner-txt {
@@ -10,9 +12,17 @@
   text-align: center;
 }
 
+.hide {
+  display: none;
+}
+
 .banner-prom {
   background-color: var(--color-alert-red);
   text-align: center;
+}
+
+.banner-btm {
+  border-bottom: 2px solid var(--color-accent);
 }
 
 .h-txt {
@@ -30,4 +40,12 @@
 .spot-banner {
   border: 2px solid var(--color-secondary);
   background-color: var(--color-primary);
+}
+
+@media only screen and (min-width: 38em) {
+
+  .hide {
+    display: block;
+  }
+
 }
