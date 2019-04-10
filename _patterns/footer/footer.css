@@ -15,3 +15,7 @@
   border-color: var(--color-transparent);
   color: var(--color-neutral-white);
 }
+
+.review {
+  overflow: hidden;
+}
