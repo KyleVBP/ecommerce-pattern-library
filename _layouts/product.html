@@ -1,18 +1,18 @@
 ---
 layout: default
 ---
-<div class="gutter-1-4 push-1-2">
-  <div class="island-1-4">
+<div class="gutter-1-2 push-1-2">
+  <div class="island-1-2">
     {% pattern sections/prod-details data=page %}
   </div>
 </div>
 
 
-<div class="gutter-1-4">
-  <h2 class="push-1-4 gutter-1-2 text-center">Suggestions</h2>
+<div class="gutter-1-2">
+  <h2 class="push-1-4 gutter text-center">Suggestions</h2>
   <div class="grid">
     {% for product in site.products limit:4 %}
-      <div class="unit [ xs-1 s-1-2 m-1-4 l-1-4 xl-1-4 ] island-1-4">
+      <div class="unit [ xs-1 s-1-2 m-1-4 l-1-4 xl-1-4 ] island-1-2">
         {% pattern cards/card data=product %}
       </div>
     {% endfor %}

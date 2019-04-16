@@ -50,8 +50,8 @@ h5 {
 }
 
 h6 {
-  color: var(--color-secondary);
-  font-weight: 400;
+  color: var(--color-secondary-light);
+  font-weight: 600;
 }
 
 p {

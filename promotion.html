@@ -2,18 +2,27 @@
 layout: promotions
 ---
 
-{% pattern banners/banner-prom %}
-
-{% pattern banners/banner-btn banner-img="/images/sales-banner.jpg" button-text="View Products" button-url="/products/" heading-title="Shop by Bulk" heading-txt="Our bulk promotion will help you to save on all available products." %}
-
-<div class="grid max-length">
-  {% for product in site.products limit:2 %}
-    <div class="unit [ xs-1 s-1-2 m-1-2 l-1-2 ] island-1-4 ">
-      {% pattern cards/card data=product %}
-    </div>
-  {% endfor %}
+<div class="skip-links">
+  <a href="#main">Jump to main content</a>
+  <a href="#nav">Jump to navigation</a>
 </div>
 
-<div class="island-1-4 max-length">
-  {% pattern sections/pricing-table %}
+<div id="main" role="main" tabindex="0">
+
+  {% pattern banners/banner-prom %}
+
+  {% pattern banners/banner-btn banner-img="/images/sales-banner.jpg" button-text="View Products" button-url="/products/" heading-title="Shop by Bulk" heading-txt="Our bulk promotion will help you to save on all available products." %}
+
+  <div class="grid max-length">
+    {% for product in site.products limit:2 %}
+      <div class="unit [ xs-1 s-1-2 m-1-2 l-1-2 ] island-1-2 gutter ">
+        {% pattern cards/card data=product %}
+      </div>
+    {% endfor %}
+  </div>
+
+  <div class="island-1-2 gutter max-length">
+    {% pattern sections/pricing-table %}
+  </div>
+
 </div>
